@@ -1,10 +1,12 @@
 import React from "react";
-import Accordian from "./components/accordian";
+import Task from "./components/carousel";
+
 
 function App() {
   return (
     <div className="App">
-      <Accordian/>
+    <Task/>
+     
     </div>
   );
 }
